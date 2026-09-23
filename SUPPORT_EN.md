@@ -75,6 +75,9 @@ No. The audio and image data are taken over unchanged; nothing is re-encoded. Wh
 is possible, sCollect changes only the few bytes of the tag instead of rewriting the
 file.
 
+**Do I need a backup?**
+Yes. sCollect writes into your files, not into a copy of them. Make a backup before large changes to many entries at once; Time Machine is enough.
+
 **Can I undo a change?**
 ⌘Z brings deleted entries back. Changes to metadata it does not — so make a backup
 before a large batch run.

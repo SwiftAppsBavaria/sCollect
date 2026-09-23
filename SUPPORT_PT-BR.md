@@ -76,6 +76,9 @@ adicionalmente de um backup de verdade.
 Não. Os dados de áudio e de imagem são assumidos sem alteração; nada é recodificado. Onde
 dá, o sCollect muda apenas os poucos bytes da tag, em vez de gravar o arquivo de novo.
 
+**Preciso de backup?**
+Sim. O sCollect grava nos seus arquivos, não em uma cópia deles. Faça um backup antes de grandes alterações em muitas entradas de uma vez; o Time Machine basta.
+
 **Posso desfazer uma alteração?**
 Entradas apagadas o ⌘Z traz de volta. Alterações em metadados não — por isso, antes de uma
 grande rodada em lote, faça um backup.

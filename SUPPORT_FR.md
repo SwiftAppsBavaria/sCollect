@@ -79,6 +79,9 @@ Non. Les données audio et image sont reprises telles quelles ; rien n’est r�
 où c’est possible, sCollect ne modifie que les quelques octets du tag au lieu de
 réécrire le fichier.
 
+**Ai-je besoin d’une sauvegarde ?**
+Oui. sCollect écrit dans vos fichiers, pas dans une copie. Faites une sauvegarde avant de grandes modifications portant sur de nombreuses entrées à la fois ; Time Machine suffit.
+
 **Puis-je annuler une modification ?**
 ⌘Z ramène les entrées supprimées. Les modifications de métadonnées, non — faites donc une
 sauvegarde avant un grand traitement par lots.

@@ -78,6 +78,9 @@ No. I dati audio e delle immagini vengono ripresi invariati; non viene ricodific
 Dove è possibile, sCollect cambia soltanto i pochi byte del tag invece di riscrivere il
 file.
 
+**Mi serve un backup?**
+Sì. sCollect scrive nei tuoi file, non in una loro copia. Prima di grandi modifiche su molte voci insieme fai un backup; basta Time Machine.
+
 **Posso annullare una modifica?**
 Le voci eliminate le riporta indietro ⌘Z. Le modifiche ai metadati no — prima di una grande
 operazione a lotti crea quindi una copia di sicurezza.

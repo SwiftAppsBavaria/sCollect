@@ -77,6 +77,9 @@ Não. Os dados de áudio e de imagem são assumidos sem alteração; nada é rec
 é possível, o sCollect altera apenas os poucos bytes da tag, em vez de voltar a escrever o
 ficheiro.
 
+**Preciso de uma cópia de segurança?**
+Sim. O sCollect grava nos seus ficheiros, não numa cópia deles. Faça uma cópia de segurança antes de grandes alterações em muitas entradas de uma só vez; o Time Machine basta.
+
 **Posso anular uma alteração?**
 As entradas apagadas ⌘Z traz de volta. As alterações aos metadados não — por isso, antes
 de uma grande passagem em lote, faça uma cópia de segurança.

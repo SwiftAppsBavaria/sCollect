@@ -78,6 +78,9 @@ No. Los datos de audio e imagen se conservan sin cambios; no se recodifica nada.
 es posible, sCollect cambia solo los pocos bytes de la etiqueta en vez de reescribir el
 archivo.
 
+**¿Necesito una copia de seguridad?**
+Sí. sCollect escribe en tus archivos, no en una copia de ellos. Haz una copia de seguridad antes de cambios grandes en muchas entradas a la vez; basta con Time Machine.
+
 **¿Puedo deshacer un cambio?**
 ⌘Z recupera las entradas borradas. Los cambios en los metadatos, no: haz por eso una
 copia de seguridad antes de un gran proceso por lotes.
