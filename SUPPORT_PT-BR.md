@@ -4,7 +4,7 @@
 
 O sCollect gerencia coleções de mídia — música, filmes, vídeos caseiros, audiolivros,
 podcasts, e-books — e peças de coleção que não são arquivos de mídia, como moedas ou
-selos. Os nomes das categorias quem define é você, em **Configurações → Rótulos de
+selos. Os nomes das categorias quem define é você, em **Ajustes → Rótulos de
 categorias**.
 
 O que você digita no editor, o app **grava de volta no arquivo**, não apenas no próprio
@@ -46,14 +46,14 @@ A pasta dele não está acessível no momento. O sCollect bloqueia esses tipos e
 guardar os arquivos em outro lugar sem avisar. Assim que o disco voltar, o bloqueio
 termina.
 
-**O editor mostra “Um campo difere do ficheiro”.**
+**O editor mostra “Um campo difere do arquivo”.**
 O arquivo traz num campo algo diferente do que está na biblioteca — em geral porque outro
 programa o editou nesse meio-tempo. A faixa acima dos campos mostra quais estão afetados,
 e você decide campo a campo se o valor do arquivo é assumido.
 
 **Não acho um campo de que preciso.**
 Para peças de coleção existem três campos de nome livre. Como eles devem se chamar você
-define por categoria em **Configurações → Rótulos de campos**.
+define por categoria em **Ajustes → Rótulos de campos**.
 
 **Posso trazer a minha coleção do iTunes ou do Música?**
 Sim. O sCollect lê o XML do iTunes com avaliações e playlists. As faixas são associadas

@@ -4,7 +4,7 @@
 
 O sCollect gere coleções de suportes — música, filmes, vídeos caseiros, audiolivros,
 podcasts, e-books — e peças de coleção que não são ficheiros multimédia, como moedas ou
-selos. Os nomes das categorias define-os a seu gosto em **Configurações → Rótulos de
+selos. Os nomes das categorias define-os a seu gosto em **Definições → Rótulos de
 categorias**.
 
 Aquilo que introduz no editor, a aplicação **volta a escrevê-lo no ficheiro**, e não
@@ -14,8 +14,8 @@ apenas no seu próprio catálogo.
 
 1. No primeiro arranque, escolha uma pasta para a biblioteca. É aí que ficarão depois os
    dados do catálogo e, se assim o quiser, também os ficheiros multimédia.
-2. Traga ficheiros ou pastas através de **Arquivo → Importar arquivos** (⌘O) ou
-   **Arquivo → Importar pasta** (⇧⌘O), ou arraste-os para a janela.
+2. Traga ficheiros ou pastas através de **Ficheiro → Importar ficheiros** (⌘O) ou
+   **Ficheiro → Importar pasta** (⇧⌘O), ou arraste-os para a janela.
 3. Ao importar, decide em cada passagem se os ficheiros são **copiados para a biblioteca**
    ou apenas **vinculados**.
 
@@ -31,17 +31,17 @@ A coluna «Vinculado» na lista mostra qual dos casos se aplica.
 ## Perguntas frequentes
 
 **Uma entrada tem um triângulo de aviso cor de laranja.**
-O ficheiro dela não foi encontrado na última passagem de **Arquivo → Biblioteca → Marcar
-itens ausentes**. A entrada não pode então ser editada — não há nada onde escrever. No menu de
-contexto a aplicação oferece **Procurar arquivo…**; o ficheiro encontrado é trazido de
+O ficheiro dela não foi encontrado na última passagem de **Ficheiro → Biblioteca → Assinalar
+elementos em falta**. A entrada não pode então ser editada — não há nada onde escrever. No menu de
+contexto a aplicação oferece **Procurar ficheiro…**; o ficheiro encontrado é trazido de
 volta para a biblioteca.
 
-**No menu de contexto aparece «Unidade não conectada», esbatido.**
+**No menu de contexto aparece «Unidade não ligada», esbatido.**
 Nesse caso não é o ficheiro que desapareceu, é o disco. O sCollect distingue expressamente
 os dois casos: o que não está ligado também não o pode verificar — e por isso também não o
 assinala como em falta. Ligue o disco e volte a correr a passagem.
 
-**Um tipo de mídia está cinzento e não se deixa alterar.**
+**Um tipo de multimédia está cinzento e não se deixa alterar.**
 A pasta dele não está acessível de momento. O sCollect bloqueia esses tipos em vez de
 guardar os ficheiros noutro sítio sem o dizer. Assim que o disco voltar, o bloqueio
 termina.
@@ -53,7 +53,7 @@ o utilizador que decide, campo a campo, se o valor do ficheiro é assumido.
 
 **Não encontro um campo de que preciso.**
 Para as peças de coleção há três campos de nome livre. Como se devem chamar define-se por
-categoria em **Configurações → Rótulos de campos**.
+categoria em **Definições → Rótulos de campos**.
 
 **Posso trazer a minha coleção do iTunes ou da Música?**
 Sim. O sCollect lê o XML do iTunes com avaliações e playlists. As faixas são associadas
@@ -80,7 +80,7 @@ ficheiro.
 **Preciso de uma cópia de segurança?**
 Sim. O sCollect grava nos seus ficheiros, não numa cópia deles. Faça uma cópia de segurança antes de grandes alterações em muitas entradas de uma só vez; o Time Machine basta.
 
-**Posso anular uma alteração?**
+**Posso desfazer uma alteração?**
 As entradas apagadas ⌘Z traz de volta. As alterações aos metadados não — por isso, antes
 de uma grande passagem em lote, faça uma cópia de segurança.
 

@@ -7,7 +7,7 @@ podcast, e-book — e pezzi da collezione che non sono file multimediali, per es
 o francobolli. Come si chiamano le categorie lo stabilisci tu in **Impostazioni →
 Etichette categorie**.
 
-Quello che inserisci nell’editor, l’app lo **riscrive nel file**, non soltanto nel proprio
+Quello che inserisci nell’editor, l’app lo **scrive nel file**, non soltanto nel proprio
 catalogo.
 
 ## Primi passi

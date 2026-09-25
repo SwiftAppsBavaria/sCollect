@@ -78,7 +78,7 @@ Wo es geht, ändert sCollect nur die wenigen Bytes des Tags, statt die Datei neu
 **Brauche ich eine Sicherung?**
 Ja. sCollect schreibt in deine Dateien, nicht in eine Kopie davon. Lege vor großen Änderungen an vielen Einträgen auf einmal eine Sicherung an; Time Machine genügt.
 
-**Kann ich eine Änderung rückgängig machen?**
+**Kann ich eine Änderung widerrufen?**
 Gelöschte Einträge holt ⌘Z zurück. Änderungen an Metadaten nicht — lege deshalb vor einem
 großen Stapellauf eine Sicherung an.
 
