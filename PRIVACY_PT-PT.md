@@ -1,11 +1,11 @@
 # Política de privacidade do sCollect
 
-Atualizado a: 2026-09-16
+Atualizado a: 2026-11-16
 
 ## Em resumo
 
 O sCollect **não** recolhe, não guarda e não transmite dados pessoais. A aplicação
-trabalha exclusivamente no seu Mac. Não há contas, não há ligação à nuvem, não há serviços
+trabalha exclusivamente no seu Mac ou PC com Windows. Não há contas, não há ligação à nuvem, não há serviços
 de análise e não há publicidade.
 
 ## Que dados a aplicação processa
@@ -56,6 +56,43 @@ aplicação não escreve nada.
 
 Os ficheiros apagados vão primeiro para uma reciclagem própria dentro da biblioteca e daí
 podem ser recuperados. Só são removidos definitivamente quando a esvaziar.
+
+## No Windows
+
+As secções acima descrevem o Mac. No Windows, o sCollect guarda o seguinte exclusivamente de forma local:
+
+Na pasta de dados da aplicação (`%LOCALAPPDATA%\Packages\<pacote>\LocalState` e `Settings`):
+
+- **Definições, posição da janela e vista** — as bibliotecas abertas recentemente, a seleção na barra lateral, as últimas faixas
+  reproduzidas, as colunas e a ordenação.
+- **A correspondência entre as pastas Mac de uma biblioteca e pastas do seu PC** (apenas caminhos de pastas).
+- **Sugestões de introdução** — valores que já utilizou em campos como género ou idioma, apresentados como sugestões.
+- **Um identificador aleatório deste PC.** Distingue os seus computadores nas cópias de uma biblioteca e não contém nada sobre
+  si.
+- **Um registo de diagnóstico** com horas, operações e os caminhos dos ficheiros envolvidos, e um **registo de erros**
+  (`fehler.log`, sete dias). Ambos ficam no seu PC; pode enviá-los quando comunicar um erro.
+
+Na pasta da biblioteca que escolheu: os dados do catálogo, as capas, a reciclagem da biblioteca e — se tiver cópias — as
+respetivas localizações e as sincronizações ainda por executar. Enquanto o sCollect tiver uma biblioteca aberta, guarda aí
+também um **ficheiro de bloqueio** com o **nome do seu PC**, para que dois computadores não escrevam ao mesmo tempo na mesma
+biblioteca. Se a biblioteca estiver numa unidade de rede, outros utilizadores dessa unidade podem ver o nome.
+
+O que está na pasta de dados da aplicação é removido quando desinstala a aplicação; a biblioteca mantém-se até que seja o
+próprio a apagá-la.
+
+O sCollect só lê e escreve ficheiros multimédia nas pastas que lhe entregar. A aplicação não estabelece ligações de rede
+próprias, não usa serviços de análise e não apresenta publicidade. Os ficheiros que o Windows não reproduz sozinho são entregues
+ao programa predefinido para esse tipo de ficheiro, que escolhe no Windows. Para converter e encurtar áudio e vídeo, utiliza o
+FFmpeg incluído, também apenas no seu PC.
+
+Se enviar uma playlist para o iTunes, o sCollect abre o iTunes para Windows com essa playlist; a aplicação não controla outros
+programas. Se exportar uma playlist para o VLC ou um dispositivo, a aplicação copia os respetivos ficheiros para a pasta que
+escolher.
+
+## Microsoft Store
+
+No Windows, a compra, a transferência e as atualizações são feitas através da Microsoft Store; aplica-se a declaração de
+privacidade da Microsoft.
 
 ## Sem transmissão, sem análise
 

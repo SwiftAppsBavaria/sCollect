@@ -1,11 +1,11 @@
 # Politique de confidentialité de sCollect
 
-Mise à jour : 2026-09-16
+Mise à jour : 2026-11-16
 
 ## En bref
 
 sCollect ne collecte, n’enregistre et ne transmet **aucune** donnée personnelle. L’app
-travaille exclusivement sur votre Mac. Il n’y a ni comptes, ni connexion au cloud, ni
+travaille exclusivement sur votre Mac ou votre PC Windows. Il n’y a ni comptes, ni connexion au cloud, ni
 services d’analyse, ni publicité.
 
 ## Quelles données l’app traite
@@ -57,6 +57,45 @@ l’app n’y écrit rien.
 
 Les fichiers supprimés passent d’abord dans une corbeille propre à la bibliothèque, d’où
 ils peuvent être récupérés. Ils ne sont définitivement supprimés que lorsque vous la videz.
+
+## Sous Windows
+
+Les sections ci-dessus décrivent le Mac. Sous Windows, sCollect enregistre les éléments suivants exclusivement en local :
+
+Dans le dossier de données de l’app (`%LOCALAPPDATA%\Packages\<paquet>\LocalState` et `Settings`) :
+
+- **Les réglages, la position de la fenêtre et la vue** — les bibliothèques ouvertes récemment, la sélection dans la barre
+  latérale, les derniers titres lus, les colonnes et le tri.
+- **La correspondance entre les dossiers Mac d’une bibliothèque et des dossiers de votre PC** (chemins de dossiers uniquement).
+- **Des aides à la saisie** — les valeurs que vous avez déjà utilisées dans des champs comme le genre ou la langue, proposées
+  comme suggestions.
+- **Un identifiant aléatoire de ce PC.** Il distingue vos ordinateurs pour les copies d’une bibliothèque et ne contient rien sur
+  vous.
+- **Un journal de diagnostic** avec les horodatages, les opérations et les chemins des fichiers concernés, et un **journal des
+  erreurs** (`fehler.log`, sept jours). Tous deux restent sur votre PC ; vous pouvez les transmettre si vous signalez une
+  erreur.
+
+Dans le dossier de la bibliothèque que vous avez choisi : les données du catalogue, les pochettes, la corbeille de la
+bibliothèque et — si elle a des copies — leurs emplacements et les synchronisations pas encore exécutées. Tant que sCollect a
+une bibliothèque ouverte, il y dépose en outre un **fichier de verrouillage** contenant le **nom de votre PC**, afin que deux
+ordinateurs n’écrivent pas en même temps dans la même bibliothèque. Si la bibliothèque se trouve sur un lecteur réseau, les
+autres utilisateurs de ce lecteur peuvent voir ce nom.
+
+Ce qui se trouve dans le dossier de données de l’app est supprimé lorsque vous désinstallez l’app ; la bibliothèque reste
+jusqu’à ce que vous la supprimiez vous-même.
+
+sCollect ne lit et n’écrit des fichiers médias que dans les dossiers que vous lui confiez. L’app n’établit aucune connexion
+réseau propre, n’utilise aucun service d’analyse et n’affiche aucune publicité. Les fichiers que Windows ne lit pas lui-même
+sont transmis au programme par défaut pour ce type de fichier, que vous choisissez dans Windows. Pour convertir et raccourcir le
+son et la vidéo, l’app utilise le FFmpeg fourni avec elle, là aussi uniquement sur votre PC.
+
+Si vous envoyez une playlist à iTunes, sCollect ouvre iTunes pour Windows avec cette playlist ; l’app ne pilote aucun autre
+programme. Si vous exportez une playlist pour VLC ou un appareil, l’app copie ses fichiers dans le dossier que vous choisissez.
+
+## Microsoft Store
+
+Sous Windows, l’achat, le téléchargement et les mises à jour passent par le Microsoft Store ; la déclaration de confidentialité
+de Microsoft s’y applique.
 
 ## Aucune transmission, aucune analyse
 

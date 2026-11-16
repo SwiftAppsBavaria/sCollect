@@ -1,11 +1,11 @@
 # Política de privacidade do sCollect
 
-Atualizado em: 2026-09-16
+Atualizado em: 2026-11-16
 
 ## Resumo
 
 O sCollect **não** coleta, não armazena e não transmite dados pessoais. O app trabalha
-exclusivamente no seu Mac. Não há contas, não há conexão com a nuvem, não há serviços de
+exclusivamente no seu Mac ou PC com Windows. Não há contas, não há conexão com a nuvem, não há serviços de
 análise e não há publicidade.
 
 ## Quais dados o app processa
@@ -54,6 +54,42 @@ grava nada lá.
 
 Arquivos apagados vão primeiro para um lixo próprio dentro da biblioteca e podem ser
 trazidos de volta de lá. Só são removidos definitivamente quando você o esvazia.
+
+## No Windows
+
+As seções acima descrevem o Mac. No Windows, o sCollect guarda o seguinte exclusivamente de forma local:
+
+Na pasta de dados do app (`%LOCALAPPDATA%\Packages\<pacote>\LocalState` e `Settings`):
+
+- **Configurações, posição da janela e visualização** — as bibliotecas abertas recentemente, a seleção na barra lateral, as
+  últimas faixas reproduzidas, as colunas e a ordenação.
+- **A correspondência entre as pastas Mac de uma biblioteca e pastas do seu PC** (apenas caminhos de pastas).
+- **Sugestões de preenchimento** — valores que você já usou em campos como gênero ou idioma, oferecidos como sugestões.
+- **Um identificador aleatório deste PC.** Ele distingue os seus computadores nas cópias de uma biblioteca e não contém nada
+  sobre você.
+- **Um registro de diagnóstico** com horários, operações e os caminhos dos arquivos envolvidos, e um **registro de erros**
+  (`fehler.log`, sete dias). Ambos ficam no seu PC; você pode repassá-los quando relatar um erro.
+
+Na pasta da biblioteca que você escolheu: os dados do catálogo, as capas, o lixo da biblioteca e — se ela tiver cópias — os
+locais delas e as sincronizações ainda não executadas. Enquanto o sCollect tem uma biblioteca aberta, ele mantém ali também um
+**arquivo de bloqueio** com o **nome do seu PC**, para que dois computadores não gravem ao mesmo tempo na mesma biblioteca. Se a
+biblioteca estiver em uma unidade de rede, outros usuários dessa unidade podem ver o nome.
+
+O que está na pasta de dados do app é removido quando você desinstala o app; a biblioteca permanece até que você mesmo a apague.
+
+O sCollect só lê e grava arquivos de mídia nas pastas que você entrega a ele. O app não faz conexões de rede próprias, não usa
+serviços de análise e não exibe publicidade. Arquivos que o Windows não reproduz sozinho são passados ao programa padrão para
+esse tipo de arquivo, que você escolhe no Windows. Para converter e recortar áudio e vídeo, ele usa o FFmpeg incluído, também
+apenas no seu PC.
+
+Se você enviar uma playlist ao iTunes, o sCollect abre o iTunes para Windows com essa playlist; o app não controla outros
+programas. Se você exportar uma playlist para o VLC ou um dispositivo, o app copia os arquivos dela para a pasta que você
+escolher.
+
+## Microsoft Store
+
+No Windows, a compra, o download e as atualizações são feitos pela Microsoft Store; para isso vale a declaração de privacidade
+da Microsoft.
 
 ## Sem repasse, sem análise
 

@@ -1,11 +1,11 @@
 # Privacy Policy for sCollect
 
-Last updated: 2026-09-16
+Last updated: 2026-11-16
 
 ## In brief
 
 sCollect collects, stores and transmits **no** personal data. The app works
-exclusively on your Mac. There are no accounts, no cloud connection, no analytics
+exclusively on your Mac or Windows PC. There are no accounts, no cloud connection, no analytics
 services and no advertising.
 
 ## What data the app processes
@@ -55,6 +55,38 @@ nothing there.
 
 Deleted files first move to a trash of their own inside the library and can be brought
 back from there. They are removed for good only when you empty it.
+
+## On Windows
+
+The sections above describe the Mac. On Windows, sCollect stores the following exclusively locally:
+
+In the app’s data folder (`%LOCALAPPDATA%\Packages\<package>\LocalState` and `Settings`):
+
+- **Settings, window position and view** — recently opened libraries, the sidebar selection, the tracks played last, columns and
+  sort order.
+- **The mapping of a library’s Mac folders to folders on your PC** (folder paths only).
+- **Input suggestions** — values you have already used in fields such as genre or language.
+- **A random identifier for this PC.** It tells your computers apart for copies of a library and contains nothing about you.
+- **A diagnostic log** with times, operations and the file paths involved, and an **error log** (`fehler.log`, seven days).
+  Both stay on your PC; you can pass them on when you report a problem.
+
+In the library folder you chose: the catalog data, artwork, the library’s trash and — if it has copies — their locations and the
+synchronizations not yet carried out. While sCollect has a library open, it also keeps a **lock file** there with the **name of your PC**, so that two
+computers don’t write to the same library at the same time. If the library is on a network drive, other users of that drive can
+see the name.
+
+What is in the app’s data folder is removed when you uninstall the app; the library stays until you delete it yourself.
+
+sCollect reads and writes media files only in the folders you give it. The app makes no network connections of its own, uses no
+analytics and shows no advertising. Files that Windows doesn’t play itself are handed to the default program for the file
+type — which one that is, you set in Windows. To convert and trim audio and video it uses the bundled FFmpeg, also only on your PC.
+
+If you send a playlist to iTunes, sCollect opens iTunes for Windows with that playlist; the app controls no other programs. If you
+export a playlist for VLC or a device, the app copies its files to the folder you choose.
+
+## Microsoft Store
+
+On Windows, purchase, download and updates are handled by the Microsoft Store; Microsoft’s privacy statement applies to them.
 
 ## No sharing, no analytics
 
